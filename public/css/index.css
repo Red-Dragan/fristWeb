@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+nav{
+    background-color: rgb(13, 228, 13);
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.rap{
+    margin-left: auto;
+}
+a{
+    color:black;
+    text-decoration: none;
+    margin-right: 44px;
+    font-size: 20px;
+}
+.head{
+    font-size: 40px;
+}
+.main{
+    display: flex;
+}
+.wap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    margin: 5em;
+}
+h1{
+    color: rgb(26, 212, 26);
+    padding: 10px;
+    font-size: 2em;
+    line-height: 40px;
+}
+p{
+    margin: 10px;
+    line-height: 25px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+button{
+    margin: 10px;
+    padding: 10px 11px;
+    background-color: rgb(24, 228, 24);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+button>a{
+    margin: 0px;
+    padding: 0px 15px;
+}
+button:hover{
+    background-color: rgb(17, 184, 17);
+}
+.error{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.op{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.op>button{
+    margin: 21px;
+}
+.images1{
+    float: left;
+    margin-right: 20px;
+}
+.images2{
+    float: right;
+    margin-left: 20px;
+}
+.images3{
+    float: left;
+    margin-right: 20px;
+}
+.images4{
+    float: right;
+    margin-left: 20px;
+}
+.part1{
+    margin-bottom: 60px;
+}
+section{
+    margin: 40px;
+}
+.part2{
+    margin-bottom: 6em;
+}
+section>p{
+    text-align: justify;
+}
+.part3{
+    margin-bottom: 60px;
+}
+section>img{
+    border-radius: 10px;
+}
+h2{
+    margin: 55px 0px 20px 0px;
+    text-align: center;
+    color: rgb(24, 219, 24);
+    font-weight: bolder;
+    font-size: 2em
+}
+.fona{
+    width: 98vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0em;
+}
+h3{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(16, 218, 16);
+    margin-bottom: 20px;
+}
+.form{
+    width: 40%;
+    border: 1px solid gray;
+    padding: 39px;
+    border-radius: 5px;
+}
+hr{
+    margin: 0px 25px 30px 25px;
+    border: 1px solid gray;
+    opacity: 0.4;
+}
+input{
+    border: none;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}
+input#male {
+    width: 20px;
+}
+input#female {
+    width: 20px;
+}
+.gender{
+    margin: 10px 0px 10px 0px;
+}
+input[type="radio"]{
+    margin-bottom: 15px;
+}
+.form>button[type="submit"]{
+    width: 100%;
+    margin: 17px 0px 0px 0px;
+}
+textarea{
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: rgb(71, 71, 71);
+}
+input{
+    background-color: rgb(71, 71, 71);
+}
