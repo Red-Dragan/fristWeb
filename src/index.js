@@ -19,4 +19,4 @@ app.get('/contact', (req, res)=>{
 app.get('*', (req, res)=>{
     res.render('404');
 })
-app.listen(8000, (()=>{console.log("server is running")}))
+app.listen(process.env.PORT||8000, (()=>{console.log("server is running")}))
